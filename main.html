@@ -1,0 +1,453 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="output (1).css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body >
+  <div class = "Header w-full">
+    <img src = "images\header_1.png" class = "w-full ">
+  </div>
+  <div class = "mainContainer">
+    <div class = "quote w-2/3 ml-24 mt-16 text-5xl font-serif font-semibold text-gray-700">
+      
+        Please complete this form to receive a personalized AI-generated trip plan tailored just for you.
+      
+    </div>
+    <div class=" absolute right-8 top-40 mt-64 mr-64 ">
+      <img src = "images\问卷210234509180929红蓝线条-01.png">
+    </div>
+  </div>
+  <!--Add google forms here-->
+  
+  <div class="mt-28 ml-14 p-10 relative mb-4">
+    <div class="text-2xl text-gray-700 pb-8 font-bold font-serif ">WHERE DO YOU WANT TO TRAVEL</div>
+    <form>
+      <div class="relative">
+        <div class="w-2/3 px-3 mb-12">
+          <label class="block uppercase tracking-wide text-gray-700 text-l font-bold mb-4" for="grid-state">
+            AVAILABLE PLACES/CITIES:
+          </label>
+          <div class="inline-block relative w-64 rounded-sm ml-6">
+            <select class="inline appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-medium" id="grid-state">
+              <option>Delhi</option>
+              <option>Mumbai</option>
+              <option>Jaipur</option>
+              <option>Agra</option>
+              <option>Varanasi</option>
+              <option>Kolkata</option>
+              
+            </select>
+            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+              <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+            </div>
+          </div>
+        </div>
+    </form>
+    <div class="text-2xl text-gray-700 pb-8 font-bold font-serif ">GENERAL PREFERENCES</div>
+    <form>
+      <div class="relative">
+        <div class="w-2/3 px-3 mb-12">
+          <label class="block uppercase tracking-wide text-gray-700 text-l font-bold mb-4" for="grid-state">
+            1. WHAT TYPE OF TRAVELER ARE YOU?
+          </label>
+          <div class="inline-block relative w-64 rounded-sm ml-6">
+            <select class="inline appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-medium" id="grid-state">
+              <option>Solo Traveler</option>
+              <option>Family</option>
+              <option>Couple</option>
+              <option>Group of Friends</option>
+            </select>
+            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+              <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+          <div class="w-2/3 px-3 mb-12">
+            <label class="block uppercase tracking-wide text-gray-700 text-l font-bold mb-4" for="grid-state">
+              2. WHAT IS THE MAIN PURPOSE OF THE TRIP?
+            </label>
+            <div class="inline-block relative w-64 rounded-sm ml-4">
+              <div class="flex items-center ps-4 py-0 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-medium">
+                <input id="bordered-checkbox-1" type="checkbox" value="" name="bordered-checkbox" class="w-4 h-4 bg-gray-200 border border-gray-200 text-gray-700 focus:ring-blue-500">
+                <label for="bordered-checkbox-1" class="w-full py-2 ml-2 text-l font-medium text-gray-900">Cultural exploration</label>
+            </div>
+            </div>
+            <div class="inline-block relative w-64 rounded-sm ml-4">
+              <div class="flex items-center ps-4 py-0 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-medium">
+                <input id="bordered-checkbox-1" type="checkbox" value="" name="bordered-checkbox" class="w-4 h-4 bg-gray-200 border border-gray-200 text-gray-700 focus:ring-blue-500">
+                <label for="bordered-checkbox-1" class="w-full py-2 ml-2 text-l font-medium text-gray-900">Adventure</label>
+            </div>
+            </div>
+            <div class="inline-block relative w-64 rounded-sm ml-4">
+              <div class="flex items-center ps-4 py-0 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-medium">
+                <input id="bordered-checkbox-1" type="checkbox" value="" name="bordered-checkbox" class="w-4 h-4 bg-gray-200 border border-gray-200 text-gray-700 focus:ring-blue-500">
+                <label for="bordered-checkbox-1" class="w-full py-2 ml-2 text-l font-medium text-gray-900">Relaxation</label>
+            </div>
+            </div>
+            <div class="inline-block relative w-64 rounded-sm ml-4">
+              <div class="flex items-center ps-4 py-0 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-medium">
+                <input id="bordered-checkbox-1" type="checkbox" value="" name="bordered-checkbox" class="w-4 h-4 bg-gray-200 border border-gray-200 text-gray-700 focus:ring-blue-500">
+                <label for="bordered-checkbox-1" class="w-full py-2 ml-2 text-l font-medium text-gray-900">Food and Culinary experiences</label>
+            </div>
+            </div>
+            <div class="inline-block relative w-64 rounded-sm ml-4">
+              <div class="flex items-center ps-4 py-0 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-medium">
+                <input id="bordered-checkbox-1" type="checkbox" value="" name="bordered-checkbox" class="w-4 h-4 bg-gray-200 border border-gray-200 text-gray-700 focus:ring-blue-500">
+                <label for="bordered-checkbox-1" class="w-full py-2 ml-2 text-l font-medium text-gray-900">Shopping</label>
+            </div>
+            
+            
+            </div>
+            </div>
+            </div>
+          </div>
+          <div class="relative">
+            <div class="w-2/3 px-3 mb-12">
+              <label class="block uppercase tracking-wide text-gray-700 text-l font-bold mb-4" for="grid-state">
+                3. WHICH TYPE OF VACATION ARE YOU INTERESTED IN?
+              </label>
+              <div class="inline-block relative w-64 rounded-sm ml-6">
+                <select class="inline appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-medium" id="grid-state">
+                  <option>Authentic local experience</option>
+                  <option>Luxurious vacation</option>
+                  <option>Budget-friendly trip</option>
+                  <option>Off-the-beaten-path exploration</option>
+                  <option>Classic tourist spots</option>
+                </select>
+                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                  <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                </div>
+              </div>
+            </div>
+            <div class="relative">
+              <div class="w-2/3 px-3 mb-12">
+                <label class="block uppercase tracking-wide text-gray-700 text-l font-bold mb-4" for="grid-state">
+                  4. HOW LONG WILL YOUR TRIP BE?
+                </label>
+                <div class="inline-block relative w-64 rounded-sm ml-6">
+                  <select class="inline appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-medium" id="grid-state">
+                    <option>1-3 days</option>
+                    <option>4-7 days</option>
+                    <option>8-14 days</option>
+                    <option>15+ days</option>
+                    
+                  </select>
+                  <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                  </div>
+                </div>
+              </div>
+              <div class="relative">
+                <div class="w-2/3 px-3 mb-12">
+                  <label class="block uppercase tracking-wide text-gray-700 text-l font-bold mb-4" for="grid-state">
+                    5. WHAT IS YOUR PREFERED TRAVEL PACE?
+                  </label>
+                  <div class="inline-block relative w-64 rounded-sm ml-6">
+                    <select class="inline appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-medium" id="grid-state">
+                      <option>Relaxed with plenty of downtime</option>
+                      <option>Balanced with mix of activities and rest</option>
+                      <option>Busy with lot of activities</option>
+                      
+                    </select>
+                    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                      <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                    </div>
+                  </div>
+                </div>
+                
+
+    </form>
+    <div class="text-2xl text-gray-700 pb-8 font-bold font-serif ">ACCOMMODATION PREFERENCES</div>
+    <form>
+      <div class="relative">
+        <div class="w-2/3 px-3 mb-12">
+          <label class="block uppercase tracking-wide text-gray-700 text-l font-bold mb-4" for="grid-state">
+            6. WHAT TYPE OF ACCOMMODATION DO YOU PREFER?
+          </label>
+          <div class="inline-block relative w-64 rounded-sm ml-6">
+            <select class="inline appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-medium" id="grid-state">
+              <option>Luxury hotel/resort</option>
+              <option>Boutique hotel</option>
+              <option>Budget hotel/hostel</option>
+              <option>Vacation rental (eg. Airbnb)</option>
+              <option>Homestay with locals</option>
+              
+            </select>
+            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+              <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+          <div class="w-2/3 px-3 mb-12">
+            <label class="block uppercase tracking-wide text-gray-700 text-l font-bold mb-4" for="grid-state">
+              7. WHAT IS YOUR PREFERED BUDGET FOR ACCOMMODATION PER NIGHT? 
+            </label>
+            <div class="inline-block relative w-64 rounded-sm ml-6">
+              <select class="inline appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-medium" id="grid-state">
+                <option>Less than INR 4,000</option>
+                <option>INR 4,000 - INR 8,000</option>
+                <option>INR 8,000 - INR 16,000</option>
+                <option>More than INR 16,000</option>
+                
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+              </div>
+            </div>
+          </div>
+    </form>
+
+
+
+    <div class="text-2xl text-gray-700 pb-8 font-bold font-serif ">FOOD AND DINING PREFERENCES</div>
+    <form>
+      <div class="relative">
+        <div class="w-2/3 px-3 mb-12">
+          <label class="block uppercase tracking-wide text-gray-700 text-l font-bold mb-4" for="grid-state">
+            8. WHAT TYPE OF FOOD EXPERIENCE ARE YOU LOOKING FOR? 
+          </label>
+          <div class="inline-block relative w-64 rounded-sm ml-6">
+            <select class="inline appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-medium" id="grid-state">
+              <option>Local street food</option>
+              <option>Fine dining</option>
+              <option>Vegetarian/vegan options</option>
+              <option>Local cuisine</option>
+              <option>Specific dietary restrictions (eg. gluten-free, halal, etc.)</option>
+              
+            </select>
+            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+              <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+            </div>
+          </div>
+        </div>
+        <div class="relative border-gray-100 border-1 rounded-md">
+          <div class="w-2/3 px-3 mb-12">
+            <label class="block uppercase tracking-wide text-gray-700 text-l font-bold mb-4" for="grid-state">
+              9. HOW ADVENTUROUS ARE YOU WITH FOOD? 
+            </label>
+            <div class="inline-block relative w-64 rounded-sm ml-6">
+              <select class="inline appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-medium" id="grid-state">
+                <option>Very adventurous, willing to try anything</option>
+                <option>Moderately adventurous, open to trying new things</option>
+                <option>Prefer familiar food</option>
+                
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+              </div>
+            </div>
+          </div>
+    </form>
+
+
+    <div class="text-2xl text-gray-700 pb-8 font-bold font-serif ">CULTURAL AND HISTORICAL PREFERENCES</div>
+    <form>
+      <div class="relative">
+        <div class="w-2/3 px-3 mb-12">
+          <label class="block uppercase tracking-wide text-gray-700 text-l font-bold mb-4" for="grid-state">
+            10. HOW INTERESTED ARE YOU IN EXPLORING CULTURAL LANDMARKS (TEMPLES, MUSEUMS HISTORICAL LANDMARKS)? 
+          </label>
+          <div class="inline-block relative w-64 rounded-sm ml-6">
+            <select class="inline appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-medium" id="grid-state">
+              <option>Very interested</option>
+              <option>Somewhat interested</option>
+              <option>Not interested</option>
+              
+            </select>
+            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+              <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+          <div class="w-2/3 px-3 mb-12">
+            <label class="block uppercase tracking-wide text-gray-700 text-l font-bold mb-4" for="grid-state">
+              11. WHICH CULTURAL EXPERIENCES ARE YOU MOST INTERESTED IN ? 
+            </label>
+            <div class="inline-block relative w-64 rounded-sm ml-6">
+              <select class="inline appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-medium" id="grid-state">
+                <option>Fesitvals and events</option>
+                <option>Traditional crafts and workshops</option>
+                <option>Local markets and Shopping</option>
+                <option>Music and dance performances</option>
+                
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+              </div>
+            </div>
+          </div>
+    </form>
+
+
+    <div class="text-2xl text-gray-700 pb-8 font-bold font-serif ">ACTIVITIES AND ADVENTURE</div>
+    <form>
+      <div class="relative">
+        <div class="w-2/3 px-3 mb-12">
+          <label class="block uppercase tracking-wide text-gray-700 text-l font-bold mb-4" for="grid-state">
+            12. WHAT KIND OF OUTDOOR ACTIVITIES DO YOU ENJOY ? 
+          </label>
+          <div class="inline-block relative w-64 rounded-sm ml-6">
+            <select class="inline appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-medium" id="grid-state">
+              <option>Hiking and trekking</option>
+              <option>Water sports (eg. snorkeling, rafting)</option>
+              <option>Wildlife safaris</option>
+              <option>Adventure sports (eg. bungee jumping, paragliding)</option>
+              
+            </select>
+            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+              <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+          <div class="w-2/3 px-3 mb-12">
+            <label class="block uppercase tracking-wide text-gray-700 text-l font-bold mb-4" for="grid-state">
+              13. ARE YOU INTERESTED IN GUIDED TOURS ? 
+            </label>
+            <div class="inline-block relative w-64 rounded-sm ml-6">
+              <select class="inline appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-medium" id="grid-state">
+                <option>Yes, I prefer guided tours</option>
+                <option>Sometimes, depending on the activity</option>
+                <option>No, I prefer to explore on my own</option>
+                
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+              </div>
+            </div>
+          </div>
+    </form>
+
+
+    <div class="text-2xl text-gray-700 pb-8 font-bold font-serif ">TRANSPORTATION PREFERENCES</div>
+    <form>
+      <div class="relative">
+        <div class="w-2/3 px-3 mb-12">
+          <label class="block uppercase tracking-wide text-gray-700 text-l font-bold mb-4" for="grid-state">
+            14. WHAT'S YOUR PREFERRED MODE OF TRANSPORTATION DURING THE TRIP ?
+          </label>
+          <div class="inline-block relative w-64 rounded-sm ml-6">
+            <select class="inline appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-medium" id="grid-state">
+              <option>Private cab</option>
+              <option>Public transportation </option>
+              <option>Renting a vehicle (car, bike)</option>
+              <option>Walking/biking tours</option>
+              
+            </select>
+            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+              <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+          <div class="w-2/3 px-3 mb-12">
+            <label class="block uppercase tracking-wide text-gray-700 text-l font-bold mb-4" for="grid-state">
+              15. DO YOU NEED ASSISTANCE WITH AIRPORT TRANSFERS? 
+            </label>
+            <div class="inline-block relative w-64 rounded-sm ml-6">
+              <select class="inline appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-medium" id="grid-state">
+                <option>YeS</option>
+                <option>No</option>
+                
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+              </div>
+            </div>
+          </div>
+    </form>
+
+
+    <div class="text-2xl text-gray-700 pb-8 font-bold font-serif ">SAFETY AND COMFORT</div>
+    <form>
+      <div class="relative">
+        <div class="w-2/3 px-3 mb-12">
+          <label class="block uppercase tracking-wide text-gray-700 text-l font-bold mb-4" for="grid-state">
+            16. HOW CONCERNED ARE YOU ABOUT SAFETY DURING YOUR TRIP? 
+          </label>
+          <div class="inline-block relative w-64 rounded-sm ml-6">
+            <select class="inline appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-medium" id="grid-state">
+              <option>Very concerned, prefer secure environments</option>
+              <option>Moderately concerned</option>
+              <option>Not very concerned</option>
+              
+            </select>
+            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+              <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+          <div class="w-2/3 px-3 mb-12">
+            <label class="block uppercase tracking-wide text-gray-700 text-l font-bold mb-4" for="grid-state">
+              17. WOULD YOU LIKE TO HAVE A LIVE LOCATION TRACKING FOR ADDED SAFETY? 
+            </label>
+            <div class="inline-block relative w-64 rounded-sm ml-6">
+              <select class="inline appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 font-medium" id="grid-state">
+                <option>Yes, I would feel safer with live tracking</option>
+                <option>No, I don't need it</option>
+                
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+              </div>
+            </div>
+          </div>
+    </form>
+ 
+    <div class="text-2xl text-gray-700 pb-8 font-bold font-serif ">CUSTOM REQUESTS</div>
+    <form>
+      <div class="relative h-10 w-full min-w-[200px]">
+        <input placeholder="Requests" 
+          class="peer h-full w-full rounded-[7px] border border-blue-gray-200 border-t-transparent bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 focus:border-2 focus:border-gray-900 focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50 placeholder:opacity-0 focus:placeholder:opacity-100" />
+        <label
+          class="before:content[' '] after:content[' '] pointer-events-none absolute left-0 -top-1.5 flex h-full w-full select-none !overflow-visible truncate text-[11px] font-normal leading-tight text-gray-500 transition-all before:pointer-events-none before:mt-[6.5px] before:mr-1 before:box-border before:block before:h-1.5 before:w-2.5 before:rounded-tl-md before:border-t before:border-l before:border-blue-gray-200 before:transition-all after:pointer-events-none after:mt-[6.5px] after:ml-1 after:box-border after:block after:h-1.5 after:w-2.5 after:flex-grow after:rounded-tr-md after:border-t after:border-r after:border-blue-gray-200 after:transition-all peer-placeholder-shown:text-sm peer-placeholder-shown:leading-[3.75] peer-placeholder-shown:text-blue-gray-500 peer-placeholder-shown:before:border-transparent peer-placeholder-shown:after:border-transparent peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-gray-900 peer-focus:before:border-t-2 peer-focus:before:border-l-2 peer-focus:before:!border-gray-900 peer-focus:after:border-t-2 peer-focus:after:border-r-2 peer-focus:after:!border-gray-900 peer-disabled:text-transparent peer-disabled:before:border-transparent peer-disabled:after:border-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500">
+          type requests here
+        </label>
+      </div>
+    </form>
+    
+    <button class="rounded-full bg-[#2E335A] w-32 text-white font-semibold flex justify-center items-center mx-auto p-3 my-10">
+      <a href="booknow.html" class="w-full text-center">SUBMIT</a>
+    </button>
+    
+
+  </div>
+
+
+  <!--footer starts here-->
+  <div class="footerz bottom-0 flex w-full px-2 pt-10 translate-y-8">
+    <div class="w-full flex">
+      <img src="images\AI Designer-533 x 127 Transparent Background.png" class="w-96 h-24 pl-10 pt-8 ">
+    </div>
+    <ul class="font-medium flex  ">
+      <li>
+        <a href="index.html" class="block mt-16 mx-2 py-2 px-2 text-orange-400 hover:bg-gray-200">Home</a>
+      </li>
+      <li>
+        <a href="index.html" class="block mt-16 mx-2 py-2 px-2 text-orange-400 hover:bg-gray-200">About</a>
+      </li>
+      <li>
+        <a href="#" class="block mt-16 mx-2 py-2 px-2 text-orange-400 hover:bg-gray-200">Features</a>
+      </li>
+      <li>
+        <a href="#" class="block mt-16 mx-2 py-2 px-2 text-orange-400 hover:bg-gray-200">Pricings</a>
+      </li>
+      <li>
+        <a href="#" class="block mt-16 mx-2 mr-10 py-2 px-2 text-orange-400 hover:bg-gray-200">Team</a>
+      </li>
+      
+      
+      
+  </div>
+
+
+  
+</body>
+</html>
